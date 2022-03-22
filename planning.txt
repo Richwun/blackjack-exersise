@@ -1,0 +1,44 @@
+Blackjack In class project notes
+Read all the instructions
+Make notes 
+    Break down the project into seperate "stories"
+All the things necessary to acoplish each goal i.e. "grooming"
+Break down the work into "tickets" which will inform how you go about 
+completing the task
+
+*******************NO CODE******************
+
+
+Hand that totals higher than the dealer < 21
+Everyone places a bet
+Everyone gets one card face up including dealer
+Everyone gets a second card except the dealer who gets one card face down
+Aces 1 or 11
+21= automatic win 1 and a half of what you bet
+
+If you want another card "hit"
+Ask for as many as you want but lose your bet if >21
+Dont want anymore cards "stay"
+
+16 or under take a another card
+17=> no more card "stay"
+
+If the dealer bust everyone wins twice their bet 
+If the dealer doesnt bust everyone who is still alive 
+
+
+
+
+1st step 
+Cut a branch "planning"
+this new branch is local initially
+Create a text file 
+
+Find an image as a backdrop (Green Velvet)
+Use Flexbox Grid or bootstrap to create "hands"
+make a function to place a bet
+make execptions to only "deal"  cards that havent been dealt 
+creeate one function to deal cards face down and face up
+create a function to count the total of the players handlers
+Make an exception so that if player is dealt 21 they win one and half their bet
+make a function to stay or pull
